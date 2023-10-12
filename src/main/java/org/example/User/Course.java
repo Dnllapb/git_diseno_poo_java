@@ -5,7 +5,7 @@ public class Course implements ICourse {
 
     private String code;
 
-    int credits;
+    private int credits;
 
     public Course(String name, String code, int credits) {
         this.name = name;
