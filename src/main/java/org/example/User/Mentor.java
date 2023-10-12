@@ -41,4 +41,15 @@ public class Mentor extends User{
     public void setCoursesToTeach(List<Course> coursesToTeach) {
         this.coursesToTeach = coursesToTeach;
     }
+
+    @Override
+    public String toString() {
+        return "Mentor{" +
+                "yearsOfExperience=" + yearsOfExperience +
+                ", isActive=" + isActive +
+                ", coursesToTeach=" + coursesToTeach +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

@@ -2,7 +2,7 @@ package org.example.User;
 
 public interface ICourse {
 
-    void mostrarCurso();
-    void calcularNotas();
+    public void mostrarCurso();
+    public void calcularNotas();
 
 }
